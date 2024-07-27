@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- fieldset used to combine all the same type of element in a form -->
+    <fieldset style="width: fit-content; border-color: darkred;">
+        <!-- legend used to give name to the form or the fieldset -->
+        <legend>HTML FORM DUMMY</legend>
+        <form>
+            <label for="Email">Email:</label>
+            <input type="text" id="Email" placeholder="Enter your Email"></input>
+        <br/>
+        <br/>
+            <label for="Password">Password Type 1:</label>
+            <input type="text" id="Password" placeholder="Enter the Password"></input>
+        <br/>
+        <br/>
+            <label for="password2">Password Type 2:</label>
+            <input type="password" name="password2" id="password2" placeholder="Enter the Password">
+
+            <fieldset>
+                <!-- name attribute of all the option must be same to make the option single selectable at a time -->
+                <legend>Sex</legend>
+                <!-- <p>Sex:</p> -->
+                <input type="radio" id="male" name="Sex"/>
+                <label for="male">Male</label>
+                <input type="radio" id="female" name="Sex"/>
+                <label for="female">Female</label>
+                <input type="radio" id="other" name="Sex"/>
+                <label for="other">Other</label>
+            </fieldset>
+            
+        <br/>
+            <p>Language Known?</p>
+            <input type="checkbox" id="english" name="English">
+            <label for="true">English</label>
+            <input type="checkbox" id="hindi" name="Hindi">
+            <label for="false">Hindi</label>
+        <br/>
+        <br/>
+            <label for="date">DOB</label>
+            <input type="date" name="Calander" id="date">
+    
+        <br/>
+        <br/>
+    
+            <input type="submit" value="submitbutton1">
+            <!-- OR -->
+            <button>Submitbutton2</button>
+    
+        <br/>
+        <br/>
+            <label for="Selector1">Choose any One</label>
+            <select name="Dishes" id="Selector1">
+                <option value="maggie">Maggie</option>
+                <option value="lays">Lays</option>
+                <option value="kurkure">Kurkure</option>
+            </select>
+        <br/>
+        <br/>
+            <textarea name="textarea" id="textarea" rows="10" cols="70" placeholder="Enter your text here...">Text</textarea>
+        <br/>
+        <br/>
+            <label for="fileselect1">Upload</label>
+            <input type="file" name="fileselect1" id="fileselect1">
+        <br/>
+        <br/>
+            <label for="PowerOff">PowerOff: </label>
+            <input type="image" src="power off.webp" alt="PowerOff" id="PowerOff" height="20px" width="20px">
+        </form>
+    </fieldset>
+
+</body>
+</html>
