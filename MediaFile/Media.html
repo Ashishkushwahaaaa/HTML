@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <!-- UTF-8 is an character encoding same as ASCII -->
+    <meta charset="UTF-8">
+    <!-- The below line tells us the view area of the screen and it is set to the depends on the device width and zoom will be 100% as scale is 1.0 -->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Title is to set the content to be shown in the open tab title -->
+    <title>Document</title> 
+    <!-- This below line tells about all the webpage opened using internet explorer must will be using latest version of it -->
+    <meta http-equiv="X-UA-Compatible" content="IE=7">
+    <meta name="description" content="This webpage is to learn to implement the media using HTML. This is the best site to learn about coding. The content of description in metadata is not shown in the viewport of the webpage but it can be seen when different links and sites are shown in browser while searching for any topic. Some text below the site can be seen that all are set as a description and that all are not the part of the contents.">
+    <meta name="keywords" content="This is to add some keywords to enhance the SEO i.e. search engine optimization which may help you to rank your webpages">
+    <!-- Below is to add Favicon icon: This is to add a logo or image to the browser tabs. To add favicon icon the logo or image must be in the root directory -->
+    <link rel="shortcut icon" href="powerOff.png" type="image/x-icon">
+    <!-- To link the .CSS file to the HTML -->
+    <link rel="stylesheet" href="style.css">
+    <!-- To connect javaScript to the HTML file -->
+    <script src="script.js"></script>
+</head>
+<body>
+    <h2>Ashish Kushwaha</h2>
+    <img src="AshishKushwahaImg.jpeg" alt="Ashish" height="250px" loading="lazy">
+
+    <table>
+        <tr>
+            <td>
+                <video src="videofile.mp4" controls height="250" width="400"></video>
+                 <!-- OR -->
+                <!-- <video controls>
+                    <source src="videofile.mp4" type="video/mp4">
+                </video> -->
+
+            </td>
+            <td>
+                <!-- <audio src="audiofile.m4a" controls></audio> -->
+
+                <audio controls>
+                    <source src="audiofile.m4a" type="audio/mp3">
+                </audio>
+            </td>
+        </tr>
+    </table>
+</br>
+</br>
+<!-- iframe is the tag to embed others webpage or video form browser to our webpages -->
+    <iframe src="../MyResume/Resume.html" frameborder="3" height="250" width="400"></iframe>
+    <!-- To embed the youtube video just remove contents written after youtube.com/ andtill "=" symbol and then at that place write embed/ and it's all done  -->
+     <!-- To make your video autoplay or not and should be in mute condition just after loading or not is to add "?" symbol at the end of the link and write autoplay="1"&mute="1" if to turn both as on -->
+    <iframe src="https://www.youtube.com/embed/nl5_waYFOyk?autoplay=0&mute=1" frameborder="10" width="430" height="250"></iframe>
+</body>
+</html>
