@@ -231,7 +231,7 @@
       </tr>
     </tbody>
   </table>
-  <br></b>
+ </b>
 
   <table border="2">
     <tr>
@@ -382,61 +382,68 @@
     </tbody>
   </table>
 
-  <!-- Still can't create as desired table -->
-  <table border="1">
-    <!-- <thead>
+  <br>
+
+  <div>
+    <table border="2">
+      <thead>
+        <tr>
           <th rowspan="3">Day</th>
           <th colspan="3">Seminar</th>
-          <th colspan="2">shedule</th>
-          <th>Topic</th>
-        </thead> -->
+        </tr>
+          
+        <tr>
+          <th colspan="2">Schedule</th>
+          <th rowspan="2">Topic</th>
+        </tr>
+          
+        <tr>
+            <th>Begin</th>
+            <th>End</th>
+        </tr>
+      </thead>
+      
+
+      <tbody>
+        <tr>
+          <td rowspan="2">Monday</td>
+          <td rowspan="2">8:00 am</td>
+          <td rowspan="2">5:00 pm</td>
+          <td>Introduction to XML</td>
+        </tr>
+        <tr>
+          <td>Validity: DTD</td>
+        </tr>
+        <tr>
+          <td rowspan="4">Tuesday</td>
+          <td>8:00 am</td>
+          <td>11:00 am</td>
+          <td rowspan="2" style="padding: 8px;">XPath</td>
+        </tr>
+        <tr>
+          <td rowspan="2">11:00 am</td>
+          <td rowspan="2">2:00 pm</td>
+        </tr>
+        <tr>
+          <td rowspan="2">XSL Transformation</td>
+        </tr>
+        <tr>
+          <td>2:00 pm</td>
+          <td>5:00 pm</td>
+        </tr>
+
+        <tr>
+          <td>Wednesday</td>
+          <td>8:00 am</td>
+          <td>12:00 pm</td>
+          <td>XSL Transformation and object</td>
+        </tr>
+      </tbody>
 
 
-    <thead>
-      <th rowspan="3">Day</th>
-      <th colspan="3">Seminar</th>
-    </thead>
-    <thead>
-      <th colspan="2">Schedule</th>
-      <th rowspan="2">Topic</th>
-    </thead>
-    <tr>
-      <td>Begin</td>
-      <td>End</td>
-    </tr>
-    <tbody>
-      <tr>
-        <td rowspan="2">Monday</td>
-        <td rowspan="2">8:00 am</td>
-        <td rowspan="2">5:00 pm</td>
-        <td>Introduction to XML</td>
-      </tr>
-      <tr>
-        <td>Validity: DTD</td>
-      </tr>
-      <tr>
-        <td rowspan="2">Tuesday</td>
-        <td>8:00 am</td>
-        <td>11:00 am</td>
-        <td rowspan="1.5">XPath</td>
-      </tr>
-      <tr>
-        <td>11:00 am</td>
-        <td>2:00 pm</td>
-        <td rowspan="1.5">XSL Transformation</td>
-      </tr>
-      <tr>
-        <td>2:00 pm</td>
-        <td>5:00 pm</td>
-      </tr>
-      <tr>
-        <td>Wednesday</td>
-        <td>8:00 am</td>
-        <td>12:00 pm</td>
-        <td>XSL Transformation and object</td>
-      </tr>
-    </tbody>
-  </table>
+    </table>
+  </div>
+
 </body>
 
 </html>
